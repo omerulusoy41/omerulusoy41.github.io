@@ -1,0 +1,44 @@
+#main{
+    background-image: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-baslik{
+    font-style: italic;
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 10px black;
+}
+.underline{
+    border-bottom: solid 2px;
+}
+.radius{
+    width: 300px;
+    border:solid;
+    border-radius:100px;
+    margin-top: 10px;
+}
+body{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color:white;
+}
+.color-p{
+    font-family:'Times New Roman', Times, serif; 
+    background-color: rgb(253, 197, 197);
+    color:green;
+}
+.skills
+{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(253, 197, 197);
+    color:rgb(23, 82, 43);
+}
+h3{
+    color:rgb(250, 192, 170);
+    text-shadow: 0 0 10px;
+}
