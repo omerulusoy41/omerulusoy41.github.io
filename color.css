@@ -4,6 +4,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Arial', sans-serif; 
 }
 .color-baslik{
     font-style: italic;
@@ -42,6 +43,4 @@ h3{
     color:rgb(250, 192, 170);
     text-shadow: 0 0 10px;
 }
-h1 {
-    font-family: 'Arial', sans-serif; 
-}
+
