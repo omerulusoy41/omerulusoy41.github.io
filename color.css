@@ -1,45 +1,96 @@
-#main{
-    background-image: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
-    height:200px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.color-baslik{
-    font-style: italic;
-    font-family: 'Press Start 2P', cursive;
-    color:rgb(255, 255, 255);
-    text-shadow: 0 0 10px black;
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
-.underline{
-    border-bottom: solid 2px;
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
 }
-.radius{
-    width: 300px;
-    border:solid;
-    border-radius:100px;
-    margin-top: 10px;
-}
-body{
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    font-weight: bold;
-    color:white;
-}
-.color-p{
-    font-family:'Times New Roman', Times, serif; 
-    background-color: rgb(253, 197, 197);
-    color:green;
-}
+
 .skills
 {
     display:flex;
     justify-content: space-around;
-    background-color: rgb(253, 197, 197);
     color:rgb(23, 82, 43);
 }
-h3{
-    color:rgb(250, 192, 170);
-    text-shadow: 0 0 10px;
+
+header h1 {
+    margin: 0;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section */
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer form input,
+footer form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+footer form button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+/* Social Links */
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li img {
+    width: 40px;
+    height: auto;
+}
